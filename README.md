@@ -1,116 +1,142 @@
-# ONLINE VOTING SYSTEM
+# [Bootstrap](http://getbootstrap.com)
 
-<br>
+[![Slack](https://bootstrap-slack.herokuapp.com/badge.svg)](https://bootstrap-slack.herokuapp.com)
+![Bower version](https://img.shields.io/bower/v/bootstrap.svg)
+[![npm version](https://img.shields.io/npm/v/bootstrap.svg)](https://www.npmjs.com/package/bootstrap)
+[![Build Status](https://img.shields.io/travis/twbs/bootstrap/master.svg)](https://travis-ci.org/twbs/bootstrap)
+[![devDependency Status](https://img.shields.io/david/dev/twbs/bootstrap.svg)](https://david-dm.org/twbs/bootstrap#info=devDependencies)
+[![NuGet](https://img.shields.io/nuget/v/bootstrap.svg)](https://www.nuget.org/packages/Bootstrap)
+[![Selenium Test Status](https://saucelabs.com/browser-matrix/bootstrap.svg)](https://saucelabs.com/u/bootstrap)
 
-![](https://img.shields.io/github/forks/Candida18/Online-Voting-System?style=for-the-badge) &emsp; &emsp;
-![](https://img.shields.io/github/stars/Candida18/Online-Voting-System?style=for-the-badge) &emsp; &emsp;
-![](https://img.shields.io/github/license/Candida18/Online-Voting-System?style=for-the-badge) &emsp; &emsp;
+Bootstrap is a sleek, intuitive, and powerful front-end framework for faster and easier web development, created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thornton](https://twitter.com/fat), and maintained by the [core team](https://github.com/orgs/twbs/people) with the massive support and involvement of the community.
 
-<br>
-
-## ABSTRACT
-<p align="justify">“ ONLINE VOTING SYSTEM ” is an online voting technique. In this system, authorized voters can give his\her vote online without going to any physical polling station. There is a database which is maintained in which all the names of voters with complete information is stored.</p>
-
-<p align="justify">In “ ONLINE VOTING SYSTEM ” a voter can use his\her voting right online without any difficulty. He\She has to be registered first for him/her to vote. Registration is mainly done by the system administrator for security reasons. The system Administrator registers the voters on a special site of the system visited by him/her only by simply filling a registration form to register voter. Citizens seeking registration are expected to contact the system administrator to submit their details and get their registration done.</p>
-
-<p align="justify">After registration, the voter is assigned a secret Voter ID with which he/she can use to log into the system and enjoy services provided by the system such as voting. If invalid/wrong details are submitted, then the citizen is not registered to vote. </p>
+To get started, check out <http://getbootstrap.com>!
 
 
-<br>
+## Table of contents
 
-## SOFTWARE REQUIREMENTS
-<ul type="square">
-  <li> <b> Operating System : </b> Any version of Windows NT family (4.0 &above) </li>
-   &emsp;
-  <li> <b> Frontend : </b>
-       <p align="left"> 
-          <a href="https://www.w3.org/html/" target="_blank" > 
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> 
-          </a>    
-         &emsp;
-          <a href="https://www.w3schools.com/css/" target="_blank">
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> 
-          </a> 
-         &emsp;
-         <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> 
-           <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
-         </a>
-         &emsp;
-          <a href="https://getbootstrap.com" target="_blank"> 
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> 
-          </a>
-        </p> 
-  </li>
- <li> <b> Backend : </b>
-     <p align = "left">
-        <a href="https://www.php.net" target="_blank"> 
-          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> 
-       </a>
-     </p>
-   </li>
+* [Quick start](#quick-start)
+* [Bugs and feature requests](#bugs-and-feature-requests)
+* [Documentation](#documentation)
+* [Contributing](#contributing)
+* [Community](#community)
+* [Versioning](#versioning)
+* [Creators](#creators)
+* [Copyright and license](#copyright-and-license)
 
-  <li> <b> Database : </b>
-     <p align="left"> 
-       <a href="https://www.mysql.com/" target="_blank">
-         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> 
-       </a> 
-</p>
-   </li>
-  </ul>
-  
-  <br>
-  
 
-## INSTRUCTIONS
+## Quick start
 
-DOWNLOAD "Online Voting Management System Project"
+Several quick start options are available:
 
-1. Install XAMPP
+* [Download the latest release](https://github.com/twbs/bootstrap/archive/v3.3.7.zip).
+* Clone the repo: `git clone https://github.com/twbs/bootstrap.git`.
+* Install with [Bower](http://bower.io): `bower install bootstrap`.
+* Install with [npm](https://www.npmjs.com): `npm install bootstrap@3`.
+* Install with [Meteor](https://www.meteor.com): `meteor add twbs:bootstrap`.
+* Install with [Composer](https://getcomposer.org): `composer require twbs/bootstrap`.
 
-2. Download the zip file/ download winrar
+Read the [Getting started page](http://getbootstrap.com/getting-started/) for information on the framework contents, templates and examples, and more.
 
-3. Extract the file and copy "voting management system" folder
+### What's included
 
-4. Paste inside root directory/ where you install xammp local disk C: drive D: drive E: paste: (for xampp/htdocs)
+Within the download you'll find the following directories and files, logically grouping common assets and providing both compiled and minified variations. You'll see something like this:
 
-5. Open PHPMyAdmin `http://localhost/phpmyadmin`
+```
+bootstrap/
+├── css/
+│   ├── bootstrap.css
+│   ├── bootstrap.css.map
+│   ├── bootstrap.min.css
+│   ├── bootstrap.min.css.map
+│   ├── bootstrap-theme.css
+│   ├── bootstrap-theme.css.map
+│   ├── bootstrap-theme.min.css
+│   └── bootstrap-theme.min.css.map
+├── js/
+│   ├── bootstrap.js
+│   └── bootstrap.min.js
+└── fonts/
+    ├── glyphicons-halflings-regular.eot
+    ├── glyphicons-halflings-regular.svg
+    ├── glyphicons-halflings-regular.ttf
+    ├── glyphicons-halflings-regular.woff
+    └── glyphicons-halflings-regular.woff2
+```
 
-6. Create a database with name votesystem
+We provide compiled CSS and JS (`bootstrap.*`), as well as compiled and minified CSS and JS (`bootstrap.min.*`). CSS [source maps](https://developer.chrome.com/devtools/docs/css-preprocessors) (`bootstrap.*.map`) are available for use with certain browsers' developer tools. Fonts from Glyphicons are included, as is the optional Bootstrap theme.
 
-7. Import votesystem.sql file(given inside the zip package in db file folder)
 
-8. Run the script 
+## Bugs and feature requests
 
-9. Use the Following Credential to log into the Admin Session
-   
-   `username:  crce`
-   
-   `password:  password`
-   
-<br>
+Have a bug or a feature request? Please first read the [issue guidelines](https://github.com/twbs/bootstrap/blob/master/CONTRIBUTING.md#using-the-issue-tracker) and search for existing and closed issues. If your problem or idea is not addressed yet, [please open a new issue](https://github.com/twbs/bootstrap/issues/new).
 
-## RESULTS
+Note that **feature requests must target [Bootstrap v4](https://github.com/twbs/bootstrap/tree/v4-dev),** because Bootstrap v3 is now in maintenance mode and is closed off to new features. This is so that we can focus our efforts on Bootstrap v4.
 
-![admin_login](https://user-images.githubusercontent.com/72904996/121797630-16a74900-cc3f-11eb-9762-3be8ae1cb6e8.png)
 
-![voter login](https://user-images.githubusercontent.com/72904996/121797592-c29c6480-cc3e-11eb-99e1-ed2268593f54.png)
+## Documentation
 
-![dashboard](https://user-images.githubusercontent.com/72904996/121797542-7cdf9c00-cc3e-11eb-9ede-e6f2a113bb7e.png)
+Bootstrap's documentation, included in this repo in the root directory, is built with [Jekyll](http://jekyllrb.com) and publicly hosted on GitHub Pages at <http://getbootstrap.com>. The docs may also be run locally.
 
-![after vote](https://user-images.githubusercontent.com/72904996/121797560-94b72000-cc3e-11eb-9b55-8470e5e52dfb.png)
+### Running documentation locally
 
-![ballot position](https://user-images.githubusercontent.com/72904996/121797563-9aad0100-cc3e-11eb-9afa-eda12498381e.png)
+1. If necessary, [install Jekyll](http://jekyllrb.com/docs/installation) and other Ruby dependencies with `bundle install`.
+   **Note for Windows users:** Read [this unofficial guide](http://jekyll-windows.juthilo.com/) to get Jekyll up and running without problems.
+2. From the root `/bootstrap` directory, run `bundle exec jekyll serve` in the command line.
+4. Open `http://localhost:9001` in your browser, and voilà.
 
-![add candidate](https://user-images.githubusercontent.com/72904996/121797598-d3e57100-cc3e-11eb-9a36-0b3bdaae2d25.png)
+Learn more about using Jekyll by reading its [documentation](http://jekyllrb.com/docs/home/).
 
-![candidate list](https://user-images.githubusercontent.com/72904996/121797568-a4ceff80-cc3e-11eb-80c6-041d8129a8c5.png)
+### Documentation for previous releases
 
-![positions](https://user-images.githubusercontent.com/72904996/121797573-aa2c4a00-cc3e-11eb-909b-96c8daf227e2.png)
+Documentation for v2.3.2 has been made available for the time being at <http://getbootstrap.com/2.3.2/> while folks transition to Bootstrap 3.
 
-![voters list](https://user-images.githubusercontent.com/72904996/121797580-b2848500-cc3e-11eb-8f0a-c543844850a5.png)
+[Previous releases](https://github.com/twbs/bootstrap/releases) and their documentation are also available for download.
 
-![votes](https://user-images.githubusercontent.com/72904996/121797583-b7e1cf80-cc3e-11eb-9eaa-c54dbdb58abd.png)
 
-![voter ballot](https://user-images.githubusercontent.com/72904996/121797601-dba51580-cc3e-11eb-92c4-8dee66f4cf57.png)
+## Contributing
 
-![vote submitted](https://user-images.githubusercontent.com/72904996/121797604-e364ba00-cc3e-11eb-80e3-94370306b0e9.png)
+Please read through our [contributing guidelines](https://github.com/twbs/bootstrap/blob/master/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
+
+Moreover, if your pull request contains JavaScript patches or features, you must include [relevant unit tests](https://github.com/twbs/bootstrap/tree/master/js/tests). All HTML and CSS should conform to the [Code Guide](https://github.com/mdo/code-guide), maintained by [Mark Otto](https://github.com/mdo).
+
+**Bootstrap v3 is now closed off to new features.** It has gone into maintenance mode so that we can focus our efforts on [Bootstrap v4](https://github.com/twbs/bootstrap/tree/v4-dev), the future of the framework. Pull requests which add new features (rather than fix bugs) should target [Bootstrap v4 (the `v4-dev` git branch)](https://github.com/twbs/bootstrap/tree/v4-dev) instead.
+
+Editor preferences are available in the [editor config](https://github.com/twbs/bootstrap/blob/master/.editorconfig) for easy use in common text editors. Read more and download plugins at <http://editorconfig.org>.
+
+
+## Community
+
+Get updates on Bootstrap's development and chat with the project maintainers and community members.
+
+* Follow [@getbootstrap on Twitter](https://twitter.com/getbootstrap).
+* Read and subscribe to [The Official Bootstrap Blog](http://blog.getbootstrap.com).
+* Join [the official Slack room](https://bootstrap-slack.herokuapp.com).
+* Chat with fellow Bootstrappers in IRC. On the `irc.freenode.net` server, in the `##bootstrap` channel.
+* Implementation help may be found at Stack Overflow (tagged [`twitter-bootstrap-3`](https://stackoverflow.com/questions/tagged/twitter-bootstrap-3)).
+* Developers should use the keyword `bootstrap` on packages which modify or add to the functionality of Bootstrap when distributing through [npm](https://www.npmjs.com/browse/keyword/bootstrap) or similar delivery mechanisms for maximum discoverability.
+
+
+## Versioning
+
+For transparency into our release cycle and in striving to maintain backward compatibility, Bootstrap is maintained under [the Semantic Versioning guidelines](http://semver.org/). Sometimes we screw up, but we'll adhere to those rules whenever possible.
+
+See [the Releases section of our GitHub project](https://github.com/twbs/bootstrap/releases) for changelogs for each release version of Bootstrap. Release announcement posts on [the official Bootstrap blog](http://blog.getbootstrap.com) contain summaries of the most noteworthy changes made in each release.
+
+
+## Creators
+
+**Mark Otto**
+
+* <https://twitter.com/mdo>
+* <https://github.com/mdo>
+
+**Jacob Thornton**
+
+* <https://twitter.com/fat>
+* <https://github.com/fat>
+
+
+## Copyright and license
+
+Code and documentation copyright 2011-2016 Twitter, Inc. Code released under [the MIT license](https://github.com/twbs/bootstrap/blob/master/LICENSE). Docs released under [Creative Commons](https://github.com/twbs/bootstrap/blob/master/docs/LICENSE).
